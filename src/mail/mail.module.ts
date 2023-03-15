@@ -15,8 +15,8 @@ import { join } from 'path';
         port: 465,
         secure: true,
         auth: {
-          user: 'yvesndaruhu@gmail.com',
-          pass: 'iqwlpajttntfxwjx',
+          user: 'email',
+          pass: 'password',
         },
       },
       template: {
