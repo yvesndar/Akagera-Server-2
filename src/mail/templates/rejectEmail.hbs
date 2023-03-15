@@ -1,0 +1,39 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img style='width: 20%;' src='cid:logo' />
+    </header>
+    <main>
+      <div>
+        <h1>Request Rejected</h1>
+      </div>
+      <div>
+        <p>Dear {{firstname}} {{lastname}},</p>
+      </div>
+      <div>
+        <h4>Your request of :</h4>
+        <h3>Request Description</h3>
+        <ol>
+          <li>Part number : {{partnumber}}</li>
+          <li>Serial number : {{serialNumber}}</li>
+          <li>Description : {{description}}</li>
+          <li>New : {{new}}</li>
+          <li>Used : {{used}}</li>
+        </ol>
+        <h4>
+          has been rejected. for other information please contact the store
+          manager
+        </h4>
+      </div>
+    </main>
+    <footer>
+      <p style='font-weight: 500;'>Sincerely, <br />Akagera team</p>
+    </footer>
+  </body>
+</html>
